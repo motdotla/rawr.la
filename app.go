@@ -17,5 +17,9 @@ func main() {
     r.HTML(200, "codeday", nil)
   })
 
+  m.Get("/newyears", func(r render.Render) {
+    r.HTML(200, "newyears", nil)
+  })
+
   m.Run()
 }
