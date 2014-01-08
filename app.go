@@ -14,7 +14,8 @@ func main() {
   })
 
   m.Get("/codeday", func(r render.Render) {
-    r.HTML(200, "codeday", nil)
+    r.Redirect("http://la.codeday.org")
+    //r.HTML(200, "codeday", nil)
   })
 
   m.Get("/newyears", func(r render.Render) {

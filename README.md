@@ -9,7 +9,7 @@ git clone https://github.com/scottmotte/rawr.la.git
 cd rawr.la
 go get github.com/codegangsta/martini
 go get github.com/codegangsta/martini-contrib
-go run server.go
+go run app.go
 ```
 
 ## Production
